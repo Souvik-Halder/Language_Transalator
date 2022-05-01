@@ -1,0 +1,50 @@
+
+:root {
+    --primary : #1a253f;
+    --dark : #151A33;
+    --secondary : #2b55cc;
+    --info : #4d79f6;
+    --ternary : #848db3;
+    --pure : #eff2f9;
+    --fade : #7081b9;
+    --mild : #8997bd;
+    --footer : #212A4A;
+    --black:#060b1b;
+    --twitter: #4ac7ec;
+    --dribbble : #ff5da0;
+    --success : #1eca24;
+    --danger : #f1646c;
+    --dark-blue : #28365f;
+    --dark-gray: #171f33;
+    --yellow: #f3c74d;
+}
+div.container{
+    
+    width: auto;
+}
+.adjust{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.color_self{
+    background-color: var(--primary);
+  
+}
+.hi{
+    width: max-content;
+    background-color: var(--pure);
+
+}
+.color_textarea{
+    background-color: var(--dark-blue);
+    border-color: #060b1b;
+  color: var(--pure);
+}
+.max-heading{
+    color: var(--pure);
+    text-align: center;
+}
